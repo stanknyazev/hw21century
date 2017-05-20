@@ -11,6 +11,7 @@ namespace hw21century.LIB.Console
         public void WriteText(string text)
         {
             System.Console.WriteLine(text);
+            System.Console.ReadLine();
         }
     }
 }
